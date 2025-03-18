@@ -1,0 +1,46 @@
+.Main{
+    background:url(./download.jpg) no-repeat ;
+    background-size: 100% 100%;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu li{
+
+    list-style: none;
+}
+
+.menu ul li {
+    flex-direction:row;
+    float: left;
+    row-gap: 10px;
+    margin-left: 15%;
+    margin-top: -19px;
+}
+
+.menu a:hover{
+    color: blue;
+    transition-duration: 0.2ms;
+    text-shadow: 2px 2px lightskyblue;
+}
+
+
+
+.logo{
+    font-size: xx-large;
+
+}
+
+.p1{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.box{
+    margin-left: 80%;
+    font-size: x-large;
+    margin-top: -15%;
+    margin-bottom: 10%;
+}
