@@ -1,46 +1,68 @@
 .Main{
-    background:url(./download.jpg) no-repeat ;
+    background:url(./download.jpg) no-repeat fixed ;
     background-size: 100% 100%;
-}
+    
+} 
 li a{
     text-decoration: none;
     color: black;
 }
-
-.menu li{
+.menu{
 
     list-style: none;
+    padding:0;
+    width: 160px;
 }
 
 .menu ul li {
-    flex-direction:row;
-    float: left;
+    flex-direction:column;
     row-gap: 10px;
-    margin-left: 15%;
-    margin-top: -19px;
+    margin-top: 1%;
+    text-shadow: gray 1px 1px;
 }
 
 .menu a:hover{
     color: blue;
     transition-duration: 0.2ms;
-    text-shadow: 2px 2px lightskyblue;
+    text-shadow: 1px 1px lightskyblue;
 }
 
+.dropdown-menu{
+    display: none;
+}
 
+.dropdown:hover .dropdown-menu{
+    display: block;
+    transition:0.2ms;
+}
+
+.dropdown-menu li:hover{
+    background: lightgray;
+}
 
 .logo{
+    padding-left: 15px;
     font-size: xx-large;
-
+    border: 2px black ;
+    width: 130px;
+    border-radius: 100px 0px;
+    box-shadow:2px 2px rgb(14, 14, 14);
 }
+
 
 .p1{
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top:-15%;
+    margin-left: 190px;
 }
 
-.box{
-    margin-left: 80%;
-    font-size: x-large;
-    margin-top: -15%;
-    margin-bottom: 10%;
+.btn:hover{
+    background: aqua;
 }
+
+hr{
+    width: 100px;
+    margin-left: -10px;
+}
+
+
+
